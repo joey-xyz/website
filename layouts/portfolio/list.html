@@ -1,0 +1,52 @@
+{{ define "main" }}
+<div class="post">
+    <div class="post-title">
+        <h1>{{ .Title }}</h1>
+    </div>
+    <div class="post-content">
+        {{ .Content }}
+        
+        <!-- Display each section-->
+        {{ range .Sections }}
+        <div class="portfolio-section">
+            <h2>{{ .Title }}</h2>
+            {{ if .Params.section_context }}
+            <div class="section_context">
+                {{ .Params.section_context }}
+            </div>
+            {{ end }}
+            <p>{{ .Description }}</p>
+            
+            <!-- Display projects in this section -->
+            <div class="portfolio-list">
+                {{ range .Pages }}
+                <div class="portfolio-item">
+                    {{ if .Params.image }}
+                    <div class="portfolio-image">
+                        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="medium-zoom-image">
+                    </div>
+                    {{ end }}
+                    <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                    {{ if .Params.description }}<p>{{ .Params.description }}</p>{{ end }}
+                    <div class="project-meta">
+                        {{ if .Params.status }}<span>✓ {{ .Params.status }}</span>{{ end }}
+                        {{ if .Params.startYear }}<span>↑ {{ .Params.startYear }}</span>{{ end }}
+                        {{ if .Params.endYear }}<span>↓ {{ .Params.endYear }}</span>{{ end }}
+                        {{ if .Params.username }}<span>@ {{ .Params.username }}</span>{{ end }}
+                        {{ if .Params.collaborator }}<span>@ {{ .Params.collaborator }}</span>{{ end }}
+                    </div>
+                    {{ if .Params.tags }}
+                    <div class="project-tags">
+                        {{ range .Params.tags }}
+                        <span class="tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

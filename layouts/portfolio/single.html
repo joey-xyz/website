@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="post">
+    <div class="post-title">
+        <h1>{{ .Title }}</h1>
+    </div>
+    <div class="project-meta">
+        {{ if .Params.status }}<span>✓ {{ .Params.status }}</span>{{ end }}
+        {{ if .Params.startYear }}<span>↑ {{ .Params.startYear }}</span>{{ end }}
+        {{ if .Params.endYear }}<span>↓ {{ .Params.endYear }}</span>{{ end }}
+        {{ if .Params.username }}<span>@ {{ .Params.username }}</span>{{ end }}
+        {{ if .Params.collaborator }}<span>@ {{ .Params.collaborator }}</span>{{ end }}
+    </div>
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+    {{ if .Params.link }}
+    <div class="project-link">
+        <a href="{{ .Params.link }}" target="_blank">Visit project website</a>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

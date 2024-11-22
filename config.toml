@@ -1,0 +1,58 @@
+baseURL = "https://joeyjakob.xyz/"
+languageCode = "en"
+title = "🤓jj"
+theme = "anatole"
+
+[params]
+title = "Joey Jakob"
+author = "Joey Jakob"
+description = "UX Researcher & Service Designer | Baseball Analytics 🤓"
+profilePicture = "/images/Headshot/CircleCrop_Headshot.png"
+customCss = ["css/custom.css"]
+
+# Social links
+[[params.socialIcons]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/joey-xyz/"
+
+[[params.socialIcons]]
+name = "LinkedIn"
+icon = "fab fa-linkedin"
+url = "http://www.linkedin.com/in/joey-brooke-jakob"
+
+[[params.socialIcons]]
+name = "Bluesky"
+icon = "fab fa-bluesky"
+url = "https://bsky.app/profile/joeyjakob.bsky.social"
+
+# This enables the burger menu
+enableMediumZoom = true
+enableSidebarCache = true
+sidebarBehavior = "fixed" # or "sticky"
+
+# Define menu items
+[[menu.main]]
+name = "About"
+weight = 1
+identifier = "about"
+url = "/about/"
+
+[[menu.main]]
+name = "Blog"
+weight = 2
+identifier = "blog"
+url = "/posts/"
+
+[[menu.main]]
+name = "Portfolio"
+weight = 4
+identifier = "portfolio"
+url = "/portfolio/"
+
+[[menu.main]]
+name = "CV"
+weight = 3
+identifier = "cv"
+url = "/cv/"
+
