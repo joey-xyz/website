@@ -1,6 +1,6 @@
 +++
 title = 'Speaking'
-date = '2024-11-05'
+date = '2024-11-09'
 draft = 'false'
 description = 'Guest lecturing or conference panel contributor'
 tags = []

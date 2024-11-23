@@ -1,6 +1,6 @@
 +++
 title = 'Designing the Wattpad Reward Ecosystem: Coin Wallet Feature'
-date = '2024-11-05'
+date = '2024-11-20'
 draft = 'false'
 description = 'Led team of 4 on Strategic Research to design Wattpad’s Coin Wallet feature; 75% adoption rate in one quarter'
 image = ''

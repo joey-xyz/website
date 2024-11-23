@@ -1,5 +1,5 @@
 +++
-date = '2024-11-10T13:26:05-05:00'
+date = '2024-11-23'
 draft = false
 title = 'When Autoship Fails to be Automatic: Task Analysis Case Study'
 description = 'My user experience headache in attempting to add an item to my PetValue autoship order, requiring the need to cancel original and create brand new order.'

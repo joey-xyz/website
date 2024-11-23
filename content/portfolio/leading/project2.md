@@ -1,6 +1,6 @@
 +++
 title = 'Mentoring Cross-Functional Partners: A Case Study'
-date = '2024-11-05'
+date = '2024-11-17'
 draft = 'false'
 description = 'Coaching Sessions: 3 Questions for PMs Working with UXRs'
 tags = []

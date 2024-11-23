@@ -76,31 +76,37 @@ img,
 .portfolio-item img,
 .image-container img,
 .portfolio-image img {
-    max-width: 600px !important;
-    max-height: 300px !important;
+    max-width: 100% !important;
+    height: auto !important;
     width: auto;
-    height: auto;
     display: block !important;
     margin: auto !important;
     transition: transform 0.3s ease;
     border: 1px solid #ccc;
     padding: 5px;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .post-content img {
-    max-width: 600px !important;
-    max-height: 300px !important;
+    max-width: 100% !important;
+    height: auto !important;
     width: auto;
-    height: auto;
     display: block !important;
     margin: auto !important;
     transition: transform 0.3s ease;
     border: 1px solid #ccc;
     padding: 5px;
     border-radius: 4px;
+    box-sizing: border-box;
 
 }
+  
+  @media screen and (min-width: 760px) {
+    .post-list {
+      max-width: 60vw;
+    }
+  }  
 
 .sidebar__introduction-profileimage,
 img.sidebar__introduction-profileimage {

@@ -1,5 +1,5 @@
 +++
-date = '2024-11-01T10:33:39-05:00'
+date = '2024-11-01'
 draft = false
 title = 'This Matrix is Real: Using Win Expectancy Matrix Calculations During Live Baseball Games'
 description = 'A Win Expectancy Matrix predicts, in real time, the probability for a team to win, telling us what each game state condition is worth.'
