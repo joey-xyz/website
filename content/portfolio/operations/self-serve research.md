@@ -1,5 +1,5 @@
 +++
-title = 'Democratized Research - Weekly User Chats Program: A Case Study'
+title = 'Self-Serve Research - Weekly User Chats Program: A Democratized Research Case Study'
 date = '2024-11-15'
 draft = 'false'
 description = 'A successful Experience Design team begins and ends with impactful cross-functional, self-service research programs'
