@@ -61,5 +61,36 @@ Favorite Topics
 
 [YouTube link to virtual replay](https://youtu.be/YhvE8whw9QU?t=923&si=osfCaQJUTHW18ef0)
 
-Invited as contributor to panel of UX Research leaders, where I shared Operations-focused learnings. TL;DR of my advice: prevention of getting lost in "triage loops." Takeaways from panel: differentiate between research insights and business recommendations; own impact with product managers; clearly communicate value of research with “We wouldn’t know [ x ] without the findings from this study.” 
+Invited as contributor to panel of UX Research leaders, where I shared Operations-focused learnings about how to remain flexible in research. 
 
+**TL;DR - My advice centred on preventing getting stuck in "triage loops." 3 Takeaways from panel: 1) differentiate between research insights and business recommendations; 2) own impact with product managers; 3) clearly communicate value of research with “We wouldn’t know [ x ] without the findings from this study.”**
+
+***
+
+## re+ops Community Call "Where Does Research Live in Your Organization" - October 19, 2022
+
+![alt](/images/portfolio/leading/re+ops1.png)
+
+**[re+ops](https://researchops.community/)** is the leading global community for Research Operations professionals. They provide resources, write articles, and host speaking events like this peer session Community Call. 
+
+![alt](/images/portfolio/leading/re+ops2.png)
+
+[Vimeo link](https://vimeo.com/762304161#t=5m10s)
+
+The panel for this Community Call responded to this question: *"Where does research live in your organization and what are the benefits and pain points of that?*" 
+
+**TL;DR - My process begins with determining the acceptable risks upfront (front-loading and managing expectations!) to allow for triage of the most urgent issues.** 
+
+> Key Learnings:  <br>
+> 1. Research Democratization (self-serve research for stakeholders)  <br>
+> * practices set up across org <br>
+> * responsibility to non-UXR researchers & their work  <br>
+> 2. Research Ethics  <br>
+> * encouraging safer and more reliable practices  <br>
+> * adapting to future situations <br>
+> 3. Challenges of Conducting Research <br>
+> * what to keep  <br>
+> * what to remove  <br>
+> * triggering good habits 
+
+***
