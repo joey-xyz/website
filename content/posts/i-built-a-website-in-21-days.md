@@ -2,7 +2,7 @@
 date = '2024-12-10'
 draft = false
 title = 'I Built a Website in 21 Days Because Cloud-Based Web Creation Tools Suck'
-description = 'My user experience headache in attempting to add an item to my PetValue autoship order, requiring the need to cancel original and create brand new order.'
+description = 'My process of combining human-centred design practices to optimize for accessibility, while learning basic programming to build, develop, and deploy a website.'
 +++
 
 ![alt](/images/wix/8.png)
