@@ -24,7 +24,7 @@ description = 'My process of combining human-centred design practices to optimiz
 
 ***
 
-I chose to leave Wix – a template enabled tool for website building – and design my own site. Besides [the myriad of reasons not to use Wix,](https://en.wikipedia.org/wiki/Wix.com#Controversies) my original use case was rendered moot: they removed an element within part of the tooling, breaking the way I had displayed my portfolio. Suddenly my button clicks went nowhere. I spent two full days reading FAQs and watching tutorials only to wind up discovering three different ways to achieve the very same result across all the features, none of which enabled the necessary functionality.  
+I chose to leave Wix – a template enabled tool for website building – and design my own site. Besides [the myriad reasons not to use Wix,](https://en.wikipedia.org/wiki/Wix.com#Controversies) my original use case was rendered moot: they removed an element within part of the tooling, breaking the way I had displayed my portfolio. Suddenly my button clicks went nowhere. I spent two full days reading FAQs and watching tutorials only to wind up discovering three different ways to achieve the very same result across all the features, none of which enabled the necessary functionality.  
 
 About to pull my hair out, perhaps literally, a friend asked a simple question: “why don’t you build your own site?” 
 
@@ -45,10 +45,10 @@ These are the steps I took to determine what, and how, to build my site:
 > 3. Buy a domain, ie: with [NameCheap](https://www.namecheap.com/)  <br>  
 > 4. Register the domain, ie: with [Netlify](https://app.netlify.com/signup)  <br>  
 > 5. Create a [Github](https://github.com/) account  <br>  
-> 6. Sync the Gitbub to the theme with your computer’s Terminal  <br>  
+> 6. Sync the Github to the theme with your computer’s Terminal  <br>  
 > 7. Use a code editor like [Visual Studio Code](https://code.visualstudio.com/) (for building and debugging) to migrate content  <br>  
 > 8. Accessibility testing with [PageSpeed Insights](https://pagespeed.web.dev/) or other  <br>  
-> 9. ush to Github with your Terminal  <br>  
+> 9. Push to Github with your Terminal  <br>  
 > 10. Keep building, steps 7 onward  <br>  
 
 This piece will focus on steps 6, 7, 8, and 9.
@@ -69,7 +69,7 @@ Word play is one of my favourite activities. To have the most fun, you have to u
 
 *Figure 2. Sync Github to Hugo Anatole theme code base*  
 
-Figure 2 shows my computer’s terminal, and the inputs to begin my site development using [Hugo, an open-sourced framework to build sites](https://gohugo.io/). I chose the [Anatole theme](https://themes.gohugo.io/themes/anatole/) from the hundreds available for it’s features (shout out to the [site developer Alex Bilz](https://www.alexbilz.com/about/):
+Figure 2 shows my computer’s terminal, and the inputs to begin my site development using [Hugo, an open-sourced framework to build sites](https://gohugo.io/). I chose the [Anatole theme](https://themes.gohugo.io/themes/anatole/) from the hundreds available for its features (shout out to the [site developer Alex Bilz](https://www.alexbilz.com/about/):
 
 * Minimal two-column pages  <br>  
 * Blog capabilities  <br>  
@@ -88,7 +88,7 @@ Figure 2 shows my computer’s terminal, and the inputs to begin my site develop
 
 *Figure 5. Desktop Anatole theme, Portfolio* 
 
-Illustrated in the above About, Home, and Portfolio screengrabs, here’s the [link to full original sample site](https://anatole-demo.netlify.app/) in case you want to tour it yourself. And since you’re on my site, can you spot the differences from this original? 
+Illustrated in the above About, Home, and Portfolio screengrabs, here’s the [link to the full original sample site](https://anatole-demo.netlify.app/) in case you want to tour it yourself. And since you’re on my site, can you spot the differences from this original? 
 
 ## Development
 
@@ -102,7 +102,17 @@ Within [Visual Studio Code](https://code.visualstudio.com/) there is another Ter
 
 *Figure 6 & 7. Connecting to Hugo server and launching the //localhost test environment* 
 
-To open the dev environment – ie: testing site in a browser – “hugo server” is typed in the Visual Studio Code terminal, which tells you where to view the live test environment – ie: what appears as a web address, phrased as a “localhost”. 
+To open the dev environment – ie: testing site in a browser – type in the Visual Studio Code terminal: 
+
+```shell
+hugo server
+```
+
+Doing so tells you where to view the live test environment – ie: what appears as a web address, phrased as: 
+
+```shell
+localhost
+```
 
 This is as great time to say: perfectly typed commands are essential. We aren’t even actually dealing in code yet, but even in the Terminal, **every key stroke counts. An extra space you didn’t mean to type? It won’t run! A file name that isn’t exact? It won’t build! Incorrect directory command? Error messages that break your heart!**
 
@@ -116,15 +126,24 @@ An error occurred here:
 
 > <<joeyjakob@joeys-macbook-pro js % hugo new content/posts/second-post.md>>. 
 
-Why? Because my Visual Studio Code Terminal was communicating with my macbook Terminal in java script (“js”), when I wanted to communicate with “joey-xyz,” my Github. Confusion is ok here. Said another way, joey-xyz or my Github – the “root” directory – is the only directory we can work in to build my site. 
+Why? Because my Visual Studio Code Terminal was communicating with my macbook Terminal in JavaScript (“js”), when I wanted to communicate with “joey-xyz,” my Github. Confusion is ok here. Said another way, joey-xyz or my Github – the “root” directory – is the only directory we can work in to build my site. 
 
-You might also be wondering: what the heck is the command: 
+You might also be wondering, this is how the command appears: 
 
-> “cd [space] ..” 
+```shell
+cd[space]..
+joey-xyz
+```
 
-This is what I spoke of above, that every keystroke counts. The “cd [space] ..” command opens a new directory. In this case, I moved up the branch, from “js” (Java Script), to “assets” (a subdirectory where CSS lives), to “joey-xyz” (my root directory, connected to Github). **Commands are necessary to tell computers to do anything. In the process of learning, I find it helpful to take screengrabs and then annotate them with marker, as illustrated above, and name the image the purpose of this action.** 
+This is what I spoke of above, that every keystroke counts. The “cd [space] ..” command opens a new directory. In this case, I moved up the branch, from “js” (JavaScript), to “assets” (a subdirectory where CSS lives), to “joey-xyz” (my root directory, connected to Github). **Commands are necessary to tell computers to do anything. In the process of learning, I find it helpful to take screengrabs and then annotate them with marker, as illustrated above, and name the image the purpose of this action.** 
 
-We’re now in “joey-xyz” which means we can finally build out a new blog post directory with the command: “hugo new content/posts/second-post.md.” Each / (slash) typed in terminal indicates where in the directory to build the corresponding action. In this case, we nest the “second-post” like this: 
+We’re now in “joey-xyz” which means we can finally build out a new blog post directory with the command: 
+
+```shell
+hugo new content/posts/second-post.md
+```
+
+Each / [slash] typed in terminal indicates where in the directory to build the corresponding action. In this case, we nest the “second-post” like this: 
 
 >  Content → Posts → Second-Post
 
@@ -138,13 +157,13 @@ We then follow this up with “.md,” as this indicates the use of [Markdown](h
 
 ### Breaking the Dev Environment
 
-A right of passage is breaking the site: when the wrong code or the wrong Markdown commands are used. 
+A rite of passage is breaking the site: when the wrong code or the wrong Markdown commands are used. 
 
 ![alt](/images/wix/10.png)
 
 *Figure 10. Fail. Broken code on line 5*
 
-The code used to build my site has specific parameters around using quotes. What broke here: I attempted to refer to my cat in the possessive – ie: “my cat’s“ – but my use of the apostrophe was read as a close-quote. The beauty of an error message, though, is that it tells you *exactly where the problem occurs, in this case, line 5. The computer read that the mistaken apostrophe for close-quote, meaning that the actual close-quote at the end the “Description” field, in effect, acted like an open-quote. And an open-quote requires a close-quote, silly! My solution was to rename the description without the need for a possessive apostrophe. Et voilà. 
+The code used to build my site has specific parameters around using quotes. What broke here: I attempted to refer to my cat in the possessive – ie: “my cat’s“ – but my use of the apostrophe was read as a close-quote. The beauty of an error message, though, is that it tells you *exactly* where the problem occurs, in this case, line 5. The computer read the mistaken apostrophe for close-quote, meaning that the actual close-quote at the end the “Description” field, in effect, acted like an open-quote. And an open-quote requires a close-quote, silly! My solution was to rename the description without the need for a possessive apostrophe. Et voilà. 
 
 Another fun error: “Failed to unmarshal YAML”. 
 
@@ -152,33 +171,71 @@ Another fun error: “Failed to unmarshal YAML”.
 
 *Figure 11. Failed to unmarshal YAML, Terminal communication*
 
-First, what the heck is a YAML? And what even is it to “unmarshal”? Welcome to the wonderful world of programming languages. YAML – or "YAML Ain't Markup Language" or "Yet Another Markup Language” – is a human-readable data serialization language. We are human, and thus we should try to read it. So the YAML fail here resulted from the incorrect syntax. I originally had “- - -” which broke the test site because and number of “-” equates a minus, effectively telling YAML to “strip” the line where this occurs. We can see this in the next shot, with <<1 draft = false>> occurring now on line 1, instead of line 2. 
+First, what the heck is a YAML? And what even is it to “unmarshal”? Welcome to the wonderful world of programming languages. YAML – or "YAML Ain't Markup Language" or "Yet Another Markup Language” – is a human-readable data serialization language. We are human, and thus we should try to read it. So the YAML fail here resulted from the incorrect syntax. I originally had used: 
+
+```YAML
+- - - 
+```
+
+This syntax broke the test site because any number of “-” equates a minus, effectively telling YAML to “strip” the line where this occurs. We can see this in the next shot, occuring on line 1 instead of the intended 2: 
+
+```YAML
+1 draft = false
+```
 
 ![alt](/images/wix/12.png)
 
 *Figure 12. Failed to unmarshal YAML, test site broken due to unintended syntax: “- - -”*
 
-I had questions for the internets about YAML and it’s syntax. I saw that changing the “- - -” to “+ + +” would communicate to “keep the line feed,” which is a fancy way of saying: please read this line as a line. 
+I had questions for the internets about YAML and it’s syntax. I saw that changing the 
+
+```YAML
+- - -
+``` 
+
+to 
+
+```YAML
++ + +
+``` 
+
+would communicate to “keep the line feed,” which is a fancy way of saying: please read this line as a line. 
 
 ![alt](/images/wix/13.png)
 
 *Figure 13. Unmarshal YAML with intended syntax: “+ + +”*
 
-And now that you know about YAML, it’s also important to not get too comfortable, because there’s so many more. Like TOML – “Tom’s Obvious Minimal Language” (programmers and engineers are indeed very funny). TOML’s purpose is to enable configuration with ease because of it’s minimal, obvious semantics (another joke?); it’s usable in a variety of programming languages, and allows for mapping to a hash table, like the one below: 
+And now that you know about YAML, it’s also important to not get too comfortable, because there’s so many more. Like TOML – “Tom’s Obvious Minimal Language” (programmers and engineers are indeed very funny). TOML’s purpose is to enable configuration with ease because of its minimal, obvious semantics (another joke?); it’s usable in a variety of programming languages, and allows for mapping to a hash table, like the one below: 
 
 ![alt](/images/wix/14.png)
 
 *Figure 14. TOML configures via # [Hash] tables*
 
-As an example of the easiness that TOML configuration allows: the ordering of burger menu items on a webpage. Originally my order had CV 4th, with Portfolio 3rd, but this didn’t make sense to me; I opted instead for alphabetization. Changing this was simple – and honestly intuitive, because I figured it out without having to ask Google, Claude, or Perplexity. All it took was switching the “weight” numbers, Portfolio as 4 and CV as 3.  
+As an example of the ease that TOML configuration allows: the ordering of burger menu items on a webpage. Originally my order had CV 4th, with Portfolio 3rd. 
+
+```TOML
+[[menu.main]]
+name = "Portfolio"
+weight = 3
+identifier = "portfolio"
+url = "/portfolio/"
+
+[[menu.main]]
+name = "CV"
+weight = 4
+identifier = "cv"
+url = "/cv"
+```
+
+But this didn’t make sense to me; I opted instead for alphabetization. Changing this was simple – and honestly intuitive, because I figured it out without having to ask Google, Claude, or Perplexity. All it took was switching the “weight” numbers, Portfolio as 4 and CV as 3.  
 
 ![alt](/images/wix/15.png)
 
 *Figure 15. TOML weighted order, changing placement of CV to 3rd and Portfolio to 4th*
 
-TOML is so effective that, even though to the human eye it would appear Portfolio and CV are not sequentially placed, ** the language is the logic. 
+TOML is so effective that, even though to the human eye it would appear Portfolio and CV are not sequentially placed, **the language is the logic**. 
 
-And suddenly the site was fixed; my heart was unbrokened. 
+And suddenly the site was fixed; my heart was unbroken. 
 
 ## Accessibility 
 
@@ -192,7 +249,7 @@ Since I’m not a web developer, nor a coder by craft, coding language takes eff
 
 Perplexity replied that, yes, amendments were needed, after thanking me for being thoughtful. 
 
-(Oh, and BTW, other GenAI tools should also be used, too. Perplexity is great for providing it’s sources, so you can check it’s work. Claude is often even better, since it’s the current leader for code work; I had used it for some code writing, but was too into it at that time to capture screenshots. The image in your mind’s eye: a furious, sweaty hacker, aka: a coder.)
+(Oh, and BTW, other GenAI tools should also be used. Perplexity is great for providing its sources, so you can check its work. Claude is often even better, since it’s the current leader for code work; I had used it for some code writing, but was too into it at that time to capture screenshots. The image in your mind’s eye: a furious, sweaty hacker, aka: a coder.)
 
 ![alt](/images/wix/17.png)
 
@@ -210,13 +267,29 @@ Perplexity then followed up with a description of what these additions created:
 
 *Figure 19. Accessibility additions: visually hidden elements, focus styles, and custom markers*
 
-These accessibility tweaks via CSS code have enabled, as the image _ above illustrates: 
+I took a look at what my original CSS code included, and how it was different. Here's it appeared as: 
+
+```CSS
+.visually-hidden {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
+}
+```
+
+It made more sense now: specific to the code above, the width and height required adjsting. These accessibility tweaks via CSS code now enable: 
 
 > * Visually hidden class for screen reader text (ie: elements are described, where appropriate, for screen reading)  <br>  
 > * Focus styles for keyboard navigation (ie: signposts or markers on the site for those using single key-click navigation)  <br>  
 > * Replacement of default markers with custom ones for better visual indication (ie: instead of “auto” height and width, we’ve replaced it with “1px”)
 
-The added code to my custom.css appears like this: 
+The added code to my custom.css now appears like this: 
 
 ![alt](/images/wix/20.png)
 
@@ -274,7 +347,7 @@ Detailed above are the issues to be further addressed to improve performance on 
 
 * Render delay with my profile picture loading (“largest contentful paint element”) = save 8,000 milliseconds
 
-* Render-blocking occurs = critical java script and CSS adjustments to defer all non-critical 
+* Render-blocking occurs = critical JavaScript and CSS adjustments to defer all non-critical 
 
 * Reduce unused CSS = defer unused CSS to decrease bytes consumed by network activity
 
@@ -286,7 +359,13 @@ These are being addressed with my next site update! But I had been running these
 
 Okay, time to make the site go live! Here’s the process I go through every time I make a change to my site. Yes, *every single time*. If you make changes in Visual Studio Code and fail to do the following actions, the updates will not be visible on your site; the changes will instead sit in limbo, draft form, until you complete the process. 
 
-Open your computer’s Terminal (not the one in Visual Studio Code, as your site syncs to GitHub via your hardware first). Here, you begin by changing the content directory – “cd joey-xyz” – so that it maps to your site. 
+Open your computer’s Terminal. Here, you begin by changing the content directory 
+
+```shell
+cd joey-xyz
+``` 
+
+so that it maps to your site. 
 
 ![alt](/images/wix/25.png)
 
@@ -294,33 +373,47 @@ Open your computer’s Terminal (not the one in Visual Studio Code, as your site
 
 Once in the proper directory, you ask Terminal to: 
 
-> “ls” 
+```shell
+ls
+```
 
-which lists all contents in your website’s directory. A good custom to have, because it reinforces that you’re in the right place (whereas if you asked your device’s Terminal to list it’s own contents, because you hadn’t previously changed the directory, you’d find listed your Applications etc.). Following this up with the command: 
+which lists all contents in your website’s directory. A good custom to have, because it reinforces that you’re in the right place (whereas if you asked your device’s Terminal to list its own contents, because you hadn’t previously changed the directory, you’d find listed your Applications etc.). Following this up with the command: 
 
-> “git status” 
+```shell
+git status
+```
 
 will show you all the changes you made in your Visual Studio Code, the things you’re looking to deploy. 
 
 Now for the juicy part: adding the contents for deployment. Type the command: 
 
-> “git add .” 
+```shell
+git add .
+``` 
 
 *No, that’s not a typo* – you’re meant to place a space 
 
-> “[ ]“ 
+```shell
+[space]
+``` 
 
 between the word 
 
-> “add” 
+```shell
+add
+```
 
 and the 
 
-> “ .” [period] 
+```shell
+.[period]
+``` 
 
 Remember how I said before that nothing is an accident in programming language, and that the smallest failed detail can break your best intentions? This space commands the listing of all the new changes you’d like to add to your site. Next, you’ll once again command: 
 
-> “git status” 
+```shell
+git status
+```
 
 to see this change list: 
 
@@ -334,19 +427,19 @@ From these listed changes you’re looking to push, you’ll next formally “co
 
 *Figure 27. Git commit, with a prompt suggesting what these changes encompass*
 
-Your next command reads: 
+Your next command reads “git commit -m" followed by a prompt telling git why you’re doing this. For the curious, the “-m” allows you to add a commit message directly from the command line (Without “-m” git would open your default text editor to write the message). In this case, I typed: 
 
-> “git commit -m” 
-
-followed by a prompt telling git why you’re doing this. For the curious, the “-m” allows you to add a commit message directly from the command line (Without “-m” git would open your default text editor to write the message). In this case, I typed: 
-
-> “git commit -m “updating v1 site”“
+```shell
+git commit -m “updating v1 site”
+```
 
 You might wonder why such a prompt is important, I did. In this case it’s less relevant, if you’re the only one tending to your site. But imagine you’re at a big company and you’re one of dozens or hundreds deploying changes. How are we to track who, as well as why, these changes are made? This detailed prompt makes visibility and tracking easier, and we call the prompt you write, detailing the why, a “change log.” 
 
 The final command for your Terminal: 
 
-> “git push origin main” 
+```shell
+git push origin main
+``` 
 
 ![alt](/images/wix/28.png)
 
@@ -364,7 +457,7 @@ In Netlify, you can see in real time your Production Deploys fully Publish your 
 
 And there you have it: a website, from concept, to build, to launch. To recap, I toured you through my process in the following, steps 6-9 listed at the outset: 
 
-6. Sync the Gitbub to the theme with your computer’s Terminal
+6. Sync the Github to the theme with your computer’s Terminal
 
 7. Use a code editor like [Visual Studio Code](https://code.visualstudio.com/) (for building and debugging) to migrate content 
 
