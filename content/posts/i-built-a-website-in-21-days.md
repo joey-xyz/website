@@ -1,7 +1,7 @@
 +++
 date = '2024-12-10'
 draft = false
-title = 'I Built a Website in 21 Days Because Cloud-Based Web Creation Tools Suck'
+title = 'I Built a Website in 21 Days: Documenting my Design, Accessibility, and Programming Language Journey'
 description = 'My process of combining human-centred design practices to optimize for accessibility, while learning basic programming to build, develop, and deploy a website.'
 +++
 
