@@ -16,13 +16,17 @@ Wattpad is a storytelling platform connecting readers and writers with 94M globa
 
 ***
 
+*[One of my recent blog posts offers a retrospective analysis of this program](https://joeyjakob.xyz/posts/documentation-as-a-trust-building-tool/)* 👈
+
+***
+
 ## Role
 
 Research Program Manager (as UXR Operations Manager @ Wattpad)
 
 ## Duration 
 
-Built in 4 weeks, iterations over 2.2 years
+Built in 4 weeks, iterations over 2 years
 
 ## Methods
 
