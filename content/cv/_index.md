@@ -19,7 +19,7 @@ I've founded research and operations practices, and mentored teams, developing t
 
 - Led team of 4 on Strategic Research to design Coin Wallet feature; 75% adoption rate in one quarter.
 
-- Built and managed the User Chats research program (Voice of the Customer) with a dedicated participant pool of 200 users; increased program participation as mentor to all client-facing roles from 40% to 80%.
+- Built and managed the User Chats research program (Voice of the Customer) with a dedicated participant pool of 5,000 users, including 200 "power users" for urgent needs; increased program participation as mentor to all client-facing roles from 40% to 80%.
 
 - Architected the Airtable Insights Repo; simplified self-service knowledge access for 40+ people across 5 depts.
 
