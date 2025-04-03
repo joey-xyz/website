@@ -7,9 +7,17 @@ tags = []
 github = 'lxndrblz'
 +++
 
-![alt](/images/portfolio/leading/speaking.png)
+I speak about my work as a guest lecturer and conference panel contributor.
 
-I speak about my work as a guest lecturer or conference panel contributor.
+***
+
+## Cha Cha Club Skills Share - March 2025
+
+![alt](/images/portfolio/leading/chacha1.png)
+
+Have you ever wanted to gather scaled-up internal feedback about your systems and services but had dismal response rates to your survey? Yup, I think everyone’s been there! In  [Boosting Cross-Functional Research Partners' Survey Response Rates](https://chachaclub.substack.com/p/cha-cha-skills-share-boosting-cross-ac0), I share tips for boosting response rates and how early investment in research partnerships can build lasting relationships and drive future success.
+
+[Cha Cha Club](https://chacha.club/) is a members-only association for full-time Research Operations professionals. 
 
 ***
 

@@ -6,7 +6,7 @@ theme = "anatole"
 [params]
 title = "Joey Jakob"
 author = "Joey Jakob"
-description = "UX Researcher & Service Designer |  <br>Baseball Analytics 🤓"
+description = "<br>RESEARCHER <br><br>Customer & User Experience <br>Program & Operations <br>Digital Products  <br> Service Design"
 profilePicture = "/images/Headshot/CircleCrop_Headshot.png"
 customCss = ["css/custom.css"]
 
@@ -20,11 +20,6 @@ url = "https://github.com/joey-xyz/"
 name = "LinkedIn"
 icon = "fab fa-linkedin"
 url = "http://www.linkedin.com/in/joey-brooke-jakob"
-
-[[params.socialIcons]]
-name = "Bluesky"
-icon = "fab fa-bluesky"
-url = "https://bsky.app/profile/joeyjakob.bsky.social"
 
 # This enables the burger menu
 enableMediumZoom = true

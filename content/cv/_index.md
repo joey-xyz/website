@@ -5,15 +5,25 @@ title = "CV"
 
 ## TL;DR
 
-I've founded research and operations practices, and mentored teams, developing tools and frameworks that achieve results, such as a 75% adoption rate for Wattpad’s Coin Wallet feature in a single quarter. I co-managed a startup team to secure a $100K grant in six months, and co-authored a white paper that influenced $805M in federal socio-environmental innovation funding.
+I've founded research and operations practices and mentored teams, developing tools and frameworks that achieve results, like a 75% adoption rate for Wattpad’s Coin Wallet feature in a single quarter. I co-managed a startup team to secure a $100K grant in six months, and co-authored a white paper that influenced $805M in federal socio-environmental innovation funding.
 
 ***
 
 ## Experience
 
+**04/2025 - PRESENT**
+
+### [Loopio](https://loopio.com/) - User Experience Research Manager 
+
+- Running and evolving our design metrics program.
+
+- Building out our generative and continuous discovery research practices, driving insights to recommendations for Product mission teams. 
+
+- Most senior research practitioner = coaching and mentoring Product Designers and Product Managers as research partners. 
+
 **12/2021 - 01/2024**
 
-### Wattpad - User Experience Research Operations Manager 
+### [Wattpad](https://www.wattpad.com/) - User Experience Research Operations Manager 
 
 - Founded and directed UX research operations as first-hire, coaching and supporting a research and design team of 11. 
 
@@ -89,6 +99,14 @@ I've founded research and operations practices, and mentored teams, developing t
 
 ***
 
+## Professional Associations 
+
+**12/2024 - PRESENT**
+
+[Cha Cha Club ](https://chacha.club/) a members-only association for full-time Research Operations professionals.
+
+***
+
 ## Languages
 
 English: native
@@ -121,7 +139,7 @@ Airtable, Amplitude, Alchemer, Asana, Confluence, CSS, DocuSign, Dovetail, dscou
 
 ## Education
 
-**05/2024 - PRESENT** 
+**05/2024 - 03/2025** 
 
 ### [SABR (Society for American Baseball Research)](https://sabr.org/analytics/certification/#leveltwo) - Advanced Analytics in Baseball, Level 2 ###
 
