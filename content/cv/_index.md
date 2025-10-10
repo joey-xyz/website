@@ -5,7 +5,7 @@ title = "CV"
 
 ## TL;DR
 
-I've founded research and operations practices and mentored teams, developing tools and frameworks that achieve results, like a 75% adoption rate for Wattpad’s Coin Wallet feature in a single quarter. I co-managed a startup team to secure a $100K grant in six months, and co-authored a white paper that influenced $805M in federal socio-environmental innovation funding.
+I've founded research and operations practices and mentored teams, and develop tools and frameworks that achieve results, like a 75% adoption rate for Wattpad’s Coin Wallet feature in a single quarter. I co-managed a startup team to secure a $100K grant in six months, and co-authored a white paper that influenced $805M in federal socio-environmental business innovation funding.
 
 ***
 
@@ -13,31 +13,36 @@ I've founded research and operations practices and mentored teams, developing to
 
 **04/2025 - PRESENT**
 
-### [Loopio](https://loopio.com/) - User Experience Research Manager 
+### [Loopio](https://loopio.com/) - Manager, Product Design Research
 
-- Running and evolving our design metrics program.
+*As the most senior research practitioner, I coach and mentor Product Designers and Product Managers as research partners.*
 
-- Building out our generative and continuous discovery research practices, driving insights to recommendations for Product mission teams. 
+“Automated Answers” / Response Intelligence Research
+- Role: Lead Researcher & Project Driver
+- Key Activities: Designed and executed 2 major studies (Phase 1: Trust & Transparency June 2025, Phase 2: Naming & Dimensions July 2025), conducted 8 moderated interviews in 3 days, ran beta testing with 14+ Enterprise/MM customers 
+- Outcomes: Reduced stakeholder delivery time by 57-70%, validated "human in the loop(io)" positioning, identified 3 critical trust requirements, shaped Library team's AI strategy
 
-- Most senior research practitioner = coaching and mentoring Product Designers and Product Managers as research partners. 
+Customer Advisory Board (CAB) Program
+- Role: Co-Lead & Strategic Partner
+- Key Activities: Co-designed framework with PMM (Product Management Marketing) leadership, defined workback plan/funding/rituals, authored strategy document
+- Outcomes: Secured ELT approval for October 2025 Product Summit launch, facilitated cross-functional alignment
+
+Research Operations & Process Scaling
+- Role: Leader & Mentor
+- Key Activities: Introduced unmoderated testing methodology, mentored team members through usability cycles, delivered training on AI research tools (Claude/NotebookLM/Rovo), advocated for Great Question platform expansion
+- Outcomes: Reduced research execution time by 3-7 days per study, eliminated 5-10 hours/week coordination overhead, reduced beta testing delays by 2-7 days per cycle
 
 **12/2021 - 01/2024**
 
 ### [Wattpad](https://www.wattpad.com/) - User Experience Research Operations Manager 
 
-- Founded and directed UX research operations as first-hire, coaching and supporting a research and design team of 11. 
-
-- Led team of 4 on Strategic Research to design Coin Wallet feature; 75% adoption rate in one quarter.
-
-- Built and managed the User Chats research program (Voice of the Customer) with a dedicated participant pool of 5,000 users, including 200 "power users" for urgent needs; increased program participation as mentor to all client-facing roles from 40% to 80%.
-
-- Architected the Airtable Insights Repo; simplified self-service knowledge access for 40+ people across 5 depts.
-
-- 100% Product Manager’s participation in monthly de-risk coaching sessions.
-
-- Spearheaded and steered cross-functional 2023 restructuring change management strategy in 6 weeks.
-
-- Part of 2024 10% reduction in force layoffs.
+* Founded and directed UX research operations as first-hire, coaching and supporting a research and design team of 11  
+* Led team of 4 on Strategic Research to design Coin Wallet feature; 75% adoption rate in one quarter.  
+* Built and managed the User Chats research program (Voice of the Customer) with a dedicated participant pool of 5,000 users, including 200 "power users" for urgent needs; increased program participation as mentor to all client-facing roles from 40% to 80%.  
+* Architected the Airtable Insights Repo; simplified self-service knowledge access for 40+ people across 5 depts.  
+* 100% Product Manager’s participation in monthly de-risk coaching sessions.  
+* Spearheaded and steered cross-functional 2023 restructuring change management strategy in 6 weeks. 
+* Part of 2024 10% reduction in force layoffs.  
 
 - *About Wattpad: Entertainment (storytelling) B2C platform with 94M global users; Toronto startup now owned by the world’s largest digital comics platform, Naver Webtoon ($2.67B valuation).*
 
@@ -45,21 +50,17 @@ I've founded research and operations practices and mentored teams, developing to
 
 ### Career Transition
 
-- Hired into the field of UX after 4 months of full-time, self-bootcamped training (upon resigning from previous role at Green Iglu and completing research contract with Centre for Skills). 
-
-- Focus: Human-Centred Design; roadmapping; insights generation & repository architecture; usability testing.
+* Hired into the field of UX after 4 months of full-time, self-bootcamped training (upon resigning from previous role at Green Iglu and completing research contract with Centre for Skills). 
+* Focus: Human-Centred Design; roadmapping; insights generation & repository architecture; usability testing.
 
 **12/2017 - 11/2021**
 
 ### Centre for Skills Development, Burlington - Research Lead, Consultant 
 
-- Fueled future funding of $2.2M over 6 years, lowering costs to $0 for participants of WIST (Women in Skilled Trades) program; Discoveries elevated 120 women into employment since 2018; Initiated inclusion of digital instruction materials – increasing participant access by 90% . 
+* Fueled future funding of $2.2M over 6 years, lowering costs to $0 for participants of WIST (Women in Skilled Trades) program; Discoveries elevated 120 women into employment since 2018; Initiated inclusion of digital instruction materials – increasing participant access by 90% . 
+* My research services contracted 3 times. 
 
-- My research services contracted 3 times. 
-
-> [2019 Report (lead co-authored)](https://drive.google.com/file/d/11jAkVLlgLNjdXjv6VuQmB-fTuSTpSQ7B/view?usp=sharing)
-
-> [2021 Report (sole-authored)](https://drive.google.com/file/d/1atnt0yoCriw78NzUbs66e6N9GVnM0Nn7/view?usp=sharing)
+> [2021 Report (sole-authored)](https://drive.google.com/file/d/1atnt0yoCriw78NzUbs66e6N9GVnM0Nn7/view?usp=sharing) | [2019 Report (lead co-authored)](https://drive.google.com/file/d/11jAkVLlgLNjdXjv6VuQmB-fTuSTpSQ7B/view?usp=sharing)
 
 **09/2020 - 09/2021**
 
@@ -77,25 +78,22 @@ I've founded research and operations practices and mentored teams, developing to
 
 ### Bennett Design Associates Toronto - Workplace Strategist & Development Writer
 
-- Service Design: Analyzed discovery research (facilitated focus groups, surveys, interviews, accessibility testing, participatory design) and co-devised strategy: 3 companies, 215 sq ft of office design, 1,500+ employees; Constructed proposals and won contracts totalling 900K sq ft, for team to design corporate offices.
-
-- Managed 1 team member (Designer).
+* Service Design: Analyzed discovery research (facilitated focus groups, surveys, interviews, accessibility testing, participatory design) and co-devised strategy: 3 companies, 215 sq ft of office design, 1,500+ employees; Constructed proposals and won contracts totalling 900K sq ft, for team to design corporate offices.
+* Managed 1 team member (Designer).
 
 **05/2017 - 08/2017**
 
 ### TMU (formerly Ryerson University) Toronto - Course Designer & Instructor
 
-- Designed and taught CC8905 MA Research Specialization and Practice (20 students x 1 course).
-
-- Engaged graduate-level students with fundamentals for mixed-method research and service design, execution, and analysis. 
+* Designed and taught CC8905 MA Research Specialization and Practice (20 students x 1 course).
+* Engaged graduate-level students with fundamentals for mixed-method research and service design, execution, and analysis. 
 
 **12/2015 - 08/2017** 
 
 ### TMU Toronto - Writing & Language Support Officer
 
-- Advised, coached and mentored graduate-level students on assignments, exams, funding applications and academic article construction.  
-
-- Championed and strengthened STEM (science, technology, engineering, math) and English As Additional Language students as my specialty focus clients (totalling ~100 clients during tenure).
+* Advised, coached and mentored graduate-level students on assignments, exams, funding applications and academic article construction.  
+* Championed and strengthened STEM (science, technology, engineering, math) and English As Additional Language students as my specialty focus clients (totalling ~100 clients during tenure).
 
 ***
 
