@@ -1,5 +1,5 @@
 +++
-date = '2025-01-19'
+date = '2025-04-19'
 draft = false
 title = 'My Venn Diagram of Specialities: Academic Rigor Meets Startup Speed'
 description = 'How I blend academic rigor and startup scrappiness with hands-on expertise to lead impactful research initiatives that transform products, programs, customer and user experiences.'

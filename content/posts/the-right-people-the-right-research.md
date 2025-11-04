@@ -1,5 +1,5 @@
 +++
-date = '2025-01-13'
+date = '2025-02-13'
 draft = false
 title = 'The Right People, The Right Research: Field Notes from a Decade of Building High-Signal Participant Programs'
 description = 'I show you how to turn your biggest research recruitment headaches into your strongest competitive advantage – without breaking your budget or timeline.'

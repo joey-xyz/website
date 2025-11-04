@@ -1,5 +1,5 @@
 +++
-date = '2025-01-27'
+date = '2025-07-27'
 draft = false
 title = 'Using a Priority Matrix: Assessing Research Risk and Problem Clarity for Your Product Design Projects'
 description = 'Your research investment should match your certainty and risk - from quick wins with clear problems to deep dives when the stakes are high and the path ahead is foggy.'

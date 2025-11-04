@@ -3,11 +3,10 @@ draft = false
 title = "About"
 +++
 
-I build trust-first AI experiences through mixed-methods research. 
+I lead product research at the intersection of behaviour and technology adoption. My work shapes business strategy and revenue decisions, not just feature validation.
 
-With over 8 years in research and service design – following nearly a decade studying human behavior and business development products – I now create, lead, and implement customer-focused user experience (UX) strategies and solutions for complex digital environments.
-
-With any time budget, I build scalable research practices that align with business goals. By blending systems-level thinking with empathy, I operationalize these practices, identify and diagnose inefficiencies to plan, develop, and optimize our research to design intuitive user experiences. Fluent in mixed methods research - qualitative vs. quantitative, attitudinal vs. behavioral - I run low lift studies for high signal impact to uncover experiences and unmet human centred design needs.
+Specializing in trust-first AI experiences, gamification and habit loops, and content design, I use mixed-methods discovery to influence product prioritization and go-to-market strategy, from B2B SaaS to B2C digital entertainment. With academic training in human behaviour and 8 years in digital product research, I deliver high-signal insights that drive measurable impact under any constraint.
+<br>
 
 <br>
 
@@ -15,4 +14,6 @@ With any time budget, I build scalable research practices that align with busine
 
 <br>
 
-*Thanks for coming to my site! I learned HTML and CSS so I could build it myself :)* 
+<br>
+
+*Thanks for coming to my site! I learned HTML and CSS so I could build and maintain it myself :)* 
