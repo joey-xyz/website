@@ -6,7 +6,7 @@ theme = "anatole"
 [params]
 title = "Joey Jakob"
 author = "Joey Jakob"
-description = "<br>| Question Asker <br>Answer Seeker |"
+description = "<br> Product Researcher "
 profilePicture = "/images/Headshot/CircleCrop_Headshot.png"
 customCss = ["css/custom.css"]
 
